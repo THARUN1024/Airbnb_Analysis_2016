@@ -10,13 +10,17 @@ This project analyzes Airbnb listing data from 2016 using Tableau for visualizat
 
 ## Key Insights
 
-1. **Average Price Per Bedroom**:  
-   - The average price for a **1-bedroom property** is **$96.2**.  
-   - The average price for a **6-bedroom property** is **$584.8**.
+1. **Time-Series Revenue Analysis**  
+   Conducted time-series analysis to track revenue trends across the year, identifying a steady growth pattern with consistent seasonal fluctuations in 2016.
 
-2. **Price Distribution by Zip Code**:  
-   - The zip code **98177** has the highest average price of **$842**.  
-   - The zip code **98122** has the lowest average price of **$122.3**.
+2. **Price vs Bedroom Analysis**  
+   Analyzed average property prices by bedroom count, revealing a strong positive correlation—prices increased from **$96.2K (1-bedroom)** to **$584.8K (6-bedroom)**.
 
-3. **Revenue Trends for 2016**:  
-   - Significant growth in revenue was observed during peak seasons of 2016.
+3. **Zip Code-Based Price Analysis**  
+   Performed geospatial analysis to identify high- and low-value areas; **Zipcode 98134** had the **highest average price ($206.6K)**, while **98125** had the **lowest ($64.7K)**.
+
+4. **Regional Price Segmentation**  
+   Segmented properties using zip code bar charts and geospatial maps to highlight regional pricing differences for strategic market targeting.
+
+5. **Bedroom Distribution Summary**  
+   Analyzed the distribution of properties by number of bedrooms; found that **1-bedroom homes were the most common (1,811 listings)**, aiding inventory and marketing strategies.
